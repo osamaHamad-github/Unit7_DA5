@@ -13,7 +13,7 @@ document.getElementById('check').addEventListener('click', function () {
   day = day.toLowerCase()
 
   // checking is conditions are true
-  if (day != 'saturday' && day != 'sunday') {
+  if (day !== 'saturday' && day !== 'sunday') {
     if (age >= 18) {
       answer.innerText = 'time to go to work!'
     } else if (age < 18) {
